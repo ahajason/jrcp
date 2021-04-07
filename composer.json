@@ -1,4 +1,14 @@
 {
+    "name": "ahajason/jrcp",
+    "description": "实时协作平台 Jason Realtime Collaboration Platform",
+    "authors": [
+        {
+            "name": "Jason",
+            "email": "Jason",
+            "homepage": "https://github.com/ahajason",
+            "role": "Original Author"
+        }
+    ],
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "dev",
