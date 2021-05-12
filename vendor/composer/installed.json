@@ -74,7 +74,170 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "./package-versions-deprecated"
+            "install-path": "d:/Projects/jrcp/vendor/composer/package-versions-deprecated"
+        },
+        {
+            "name": "composer/semver",
+            "version": "3.2.4",
+            "version_normalized": "3.2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "a02fdf930a3c1c3ed3a49b5f63859c0c20e10464"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/a02fdf930a3c1c3ed3a49b5f63859c0c20e10464",
+                "reference": "a02fdf930a3c1c3ed3a49b5f63859c0c20e10464",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.54",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "time": "2020-11-13T08:59:24+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/semver/issues",
+                "source": "https://github.com/composer/semver/tree/3.2.4"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "d:/Projects/jrcp/vendor/composer/semver"
+        },
+        {
+            "name": "composer/xdebug-handler",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/xdebug-handler.git",
+                "reference": "964adcdd3a28bf9ed5d9ac6450064e0d71ed7496"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/964adcdd3a28bf9ed5d9ac6450064e0d71ed7496",
+                "reference": "964adcdd3a28bf9ed5d9ac6450064e0d71ed7496",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.55",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "time": "2021-05-05T19:37:51+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\XdebugHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
+                }
+            ],
+            "description": "Restarts a process without Xdebug.",
+            "keywords": [
+                "Xdebug",
+                "performance"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/xdebug-handler/issues",
+                "source": "https://github.com/composer/xdebug-handler/tree/2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "d:/Projects/jrcp/vendor/composer/xdebug-handler"
         },
         {
             "name": "doctrine/annotations",
@@ -147,7 +310,7 @@
                 "issues": "https://github.com/doctrine/annotations/issues",
                 "source": "https://github.com/doctrine/annotations/tree/1.12.1"
             },
-            "install-path": "../doctrine/annotations"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/annotations"
         },
         {
             "name": "doctrine/cache",
@@ -250,7 +413,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/cache"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/cache"
         },
         {
             "name": "doctrine/collections",
@@ -322,7 +485,7 @@
                 "issues": "https://github.com/doctrine/collections/issues",
                 "source": "https://github.com/doctrine/collections/tree/1.6.7"
             },
-            "install-path": "../doctrine/collections"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/collections"
         },
         {
             "name": "doctrine/common",
@@ -415,7 +578,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/common"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/common"
         },
         {
             "name": "doctrine/dbal",
@@ -524,7 +687,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/dbal"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/dbal"
         },
         {
             "name": "doctrine/deprecations",
@@ -570,7 +733,7 @@
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/v0.5.3"
             },
-            "install-path": "../doctrine/deprecations"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/deprecations"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -683,7 +846,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/doctrine-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/doctrine-bundle"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -770,7 +933,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/doctrine-migrations-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/doctrine-migrations-bundle"
         },
         {
             "name": "doctrine/event-manager",
@@ -867,7 +1030,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/event-manager"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/event-manager"
         },
         {
             "name": "doctrine/inflector",
@@ -965,7 +1128,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/inflector"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/inflector"
         },
         {
             "name": "doctrine/instantiator",
@@ -1037,7 +1200,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/instantiator"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/instantiator"
         },
         {
             "name": "doctrine/lexer",
@@ -1120,7 +1283,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/lexer"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/lexer"
         },
         {
             "name": "doctrine/migrations",
@@ -1230,7 +1393,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/migrations"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/migrations"
         },
         {
             "name": "doctrine/orm",
@@ -1320,7 +1483,7 @@
                 "issues": "https://github.com/doctrine/orm/issues",
                 "source": "https://github.com/doctrine/orm/tree/2.8.4"
             },
-            "install-path": "../doctrine/orm"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/orm"
         },
         {
             "name": "doctrine/persistence",
@@ -1407,7 +1570,7 @@
                 "issues": "https://github.com/doctrine/persistence/issues",
                 "source": "https://github.com/doctrine/persistence/tree/2.1.0"
             },
-            "install-path": "../doctrine/persistence"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/persistence"
         },
         {
             "name": "doctrine/sql-formatter",
@@ -1467,7 +1630,7 @@
                 "issues": "https://github.com/doctrine/sql-formatter/issues",
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.1.x"
             },
-            "install-path": "../doctrine/sql-formatter"
+            "install-path": "d:/Projects/jrcp/vendor/doctrine/sql-formatter"
         },
         {
             "name": "egulias/email-validator",
@@ -1538,7 +1701,104 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../egulias/email-validator"
+            "install-path": "d:/Projects/jrcp/vendor/egulias/email-validator"
+        },
+        {
+            "name": "friendsofphp/php-cs-fixer",
+            "version": "v3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
+                "reference": "c15377bdfa8d1ecf186f1deadec39c89984e1167"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/c15377bdfa8d1ecf186f1deadec39c89984e1167",
+                "reference": "c15377bdfa8d1ecf186f1deadec39c89984e1167",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/semver": "^3.2",
+                "composer/xdebug-handler": "^2.0",
+                "doctrine/annotations": "^1.12",
+                "ext-json": "*",
+                "ext-tokenizer": "*",
+                "php": "^7.1.3 || ^8.0",
+                "php-cs-fixer/diff": "^2.0",
+                "symfony/console": "^4.4.20 || ^5.1.3",
+                "symfony/event-dispatcher": "^4.4.20 || ^5.0",
+                "symfony/filesystem": "^4.4.20 || ^5.0",
+                "symfony/finder": "^4.4.20 || ^5.0",
+                "symfony/options-resolver": "^4.4.20 || ^5.0",
+                "symfony/polyfill-php72": "^1.22",
+                "symfony/process": "^4.4.20 || ^5.0",
+                "symfony/stopwatch": "^4.4.20 || ^5.0"
+            },
+            "require-dev": {
+                "justinrainbow/json-schema": "^5.2",
+                "keradus/cli-executor": "^1.4",
+                "mikey179/vfsstream": "^1.6.8",
+                "php-coveralls/php-coveralls": "^2.4.3",
+                "php-cs-fixer/accessible-object": "^1.1",
+                "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.2",
+                "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.2.1",
+                "phpspec/prophecy": "^1.10.3",
+                "phpspec/prophecy-phpunit": "^1.1 || ^2.0",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.14 || ^9.5",
+                "phpunitgoodpractices/polyfill": "^1.5",
+                "phpunitgoodpractices/traits": "^1.9.1",
+                "symfony/phpunit-bridge": "^5.2.4",
+                "symfony/yaml": "^4.4.20 || ^5.0"
+            },
+            "suggest": {
+                "ext-dom": "For handling output formats in XML",
+                "ext-mbstring": "For handling non-UTF8 characters.",
+                "symfony/polyfill-mbstring": "When enabling `ext-mbstring` is not possible."
+            },
+            "time": "2021-05-03T21:51:58+00:00",
+            "bin": [
+                "php-cs-fixer"
+            ],
+            "type": "application",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PhpCsFixer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Dariusz Rumiński",
+                    "email": "dariusz.ruminski@gmail.com"
+                }
+            ],
+            "description": "A tool to automatically fix PHP code style",
+            "support": {
+                "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
+                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/keradus",
+                    "type": "github"
+                }
+            ],
+            "install-path": "d:/Projects/jrcp/vendor/friendsofphp/php-cs-fixer"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -1623,7 +1883,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../friendsofphp/proxy-manager-lts"
+            "install-path": "d:/Projects/jrcp/vendor/friendsofphp/proxy-manager-lts"
         },
         {
             "name": "laminas/laminas-code",
@@ -1697,7 +1957,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "install-path": "../laminas/laminas-code"
+            "install-path": "d:/Projects/jrcp/vendor/laminas/laminas-code"
         },
         {
             "name": "laminas/laminas-eventmanager",
@@ -1766,7 +2026,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "install-path": "../laminas/laminas-eventmanager"
+            "install-path": "d:/Projects/jrcp/vendor/laminas/laminas-eventmanager"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
@@ -1831,7 +2091,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "install-path": "../laminas/laminas-zendframework-bridge"
+            "install-path": "d:/Projects/jrcp/vendor/laminas/laminas-zendframework-bridge"
         },
         {
             "name": "monolog/monolog",
@@ -1930,7 +2190,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../monolog/monolog"
+            "install-path": "d:/Projects/jrcp/vendor/monolog/monolog"
         },
         {
             "name": "nikic/php-parser",
@@ -1989,7 +2249,68 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.4"
             },
-            "install-path": "../nikic/php-parser"
+            "install-path": "d:/Projects/jrcp/vendor/nikic/php-parser"
+        },
+        {
+            "name": "php-cs-fixer/diff",
+            "version": "v2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-CS-Fixer/diff.git",
+                "reference": "29dc0d507e838c4580d018bd8b5cb412474f7ec3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/diff/zipball/29dc0d507e838c4580d018bd8b5cb412474f7ec3",
+                "reference": "29dc0d507e838c4580d018bd8b5cb412474f7ec3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^5.6 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7.23 || ^6.4.3 || ^7.0",
+                "symfony/process": "^3.3"
+            },
+            "time": "2020-10-14T08:32:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                }
+            ],
+            "description": "sebastian/diff v3 backport support for PHP 5.6+",
+            "homepage": "https://github.com/PHP-CS-Fixer",
+            "keywords": [
+                "diff"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-CS-Fixer/diff/issues",
+                "source": "https://github.com/PHP-CS-Fixer/diff/tree/v2.0.2"
+            },
+            "install-path": "d:/Projects/jrcp/vendor/php-cs-fixer/diff"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2045,7 +2366,7 @@
                 "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/2.x"
             },
-            "install-path": "../phpdocumentor/reflection-common"
+            "install-path": "d:/Projects/jrcp/vendor/phpdocumentor/reflection-common"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2104,7 +2425,7 @@
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/master"
             },
-            "install-path": "../phpdocumentor/reflection-docblock"
+            "install-path": "d:/Projects/jrcp/vendor/phpdocumentor/reflection-docblock"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -2156,7 +2477,7 @@
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
                 "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.4.0"
             },
-            "install-path": "../phpdocumentor/type-resolver"
+            "install-path": "d:/Projects/jrcp/vendor/phpdocumentor/type-resolver"
         },
         {
             "name": "psr/cache",
@@ -2208,7 +2529,7 @@
             "support": {
                 "source": "https://github.com/php-fig/cache/tree/master"
             },
-            "install-path": "../psr/cache"
+            "install-path": "d:/Projects/jrcp/vendor/psr/cache"
         },
         {
             "name": "psr/container",
@@ -2259,7 +2580,7 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
-            "install-path": "../psr/container"
+            "install-path": "d:/Projects/jrcp/vendor/psr/container"
         },
         {
             "name": "psr/event-dispatcher",
@@ -2312,7 +2633,7 @@
                 "issues": "https://github.com/php-fig/event-dispatcher/issues",
                 "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
-            "install-path": "../psr/event-dispatcher"
+            "install-path": "d:/Projects/jrcp/vendor/psr/event-dispatcher"
         },
         {
             "name": "psr/link",
@@ -2367,7 +2688,7 @@
             "support": {
                 "source": "https://github.com/php-fig/link/tree/master"
             },
-            "install-path": "../psr/link"
+            "install-path": "d:/Projects/jrcp/vendor/psr/link"
         },
         {
             "name": "psr/log",
@@ -2420,7 +2741,7 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/1.1.3"
             },
-            "install-path": "../psr/log"
+            "install-path": "d:/Projects/jrcp/vendor/psr/log"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -2503,7 +2824,7 @@
                 "issues": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/issues",
                 "source": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/tree/v5.6.1"
             },
-            "install-path": "../sensio/framework-extra-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/sensio/framework-extra-bundle"
         },
         {
             "name": "symfony/asset",
@@ -2575,7 +2896,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/asset"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/asset"
         },
         {
             "name": "symfony/browser-kit",
@@ -2649,7 +2970,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/browser-kit"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/browser-kit"
         },
         {
             "name": "symfony/cache",
@@ -2747,7 +3068,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/cache"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/cache"
         },
         {
             "name": "symfony/cache-contracts",
@@ -2829,7 +3150,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/cache-contracts"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/cache-contracts"
         },
         {
             "name": "symfony/config",
@@ -2910,7 +3231,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/config"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/config"
         },
         {
             "name": "symfony/console",
@@ -3010,7 +3331,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/console"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/console"
         },
         {
             "name": "symfony/css-selector",
@@ -3078,7 +3399,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/css-selector"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/css-selector"
         },
         {
             "name": "symfony/debug-bundle",
@@ -3159,7 +3480,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/debug-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/debug-bundle"
         },
         {
             "name": "symfony/dependency-injection",
@@ -3249,7 +3570,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/dependency-injection"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/dependency-injection"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3319,7 +3640,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/deprecation-contracts"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/deprecation-contracts"
         },
         {
             "name": "symfony/doctrine-bridge",
@@ -3436,7 +3757,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/doctrine-bridge"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/doctrine-bridge"
         },
         {
             "name": "symfony/dom-crawler",
@@ -3513,7 +3834,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/dom-crawler"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/dom-crawler"
         },
         {
             "name": "symfony/dotenv",
@@ -3586,7 +3907,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/dotenv"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/dotenv"
         },
         {
             "name": "symfony/error-handler",
@@ -3658,7 +3979,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/error-handler"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/error-handler"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -3746,7 +4067,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/event-dispatcher"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/event-dispatcher"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -3828,7 +4149,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/event-dispatcher-contracts"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/event-dispatcher-contracts"
         },
         {
             "name": "symfony/expression-language",
@@ -3895,7 +4216,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/expression-language"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/expression-language"
         },
         {
             "name": "symfony/filesystem",
@@ -3960,7 +4281,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/filesystem"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/filesystem"
         },
         {
             "name": "symfony/finder",
@@ -4024,7 +4345,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/finder"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/finder"
         },
         {
             "name": "symfony/flex",
@@ -4095,7 +4416,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/flex"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/flex"
         },
         {
             "name": "symfony/form",
@@ -4199,7 +4520,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/form"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/form"
         },
         {
             "name": "symfony/framework-bundle",
@@ -4351,7 +4672,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/framework-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/framework-bundle"
         },
         {
             "name": "symfony/http-client",
@@ -4440,7 +4761,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/http-client"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/http-client"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -4522,7 +4843,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/http-client-contracts"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/http-client-contracts"
         },
         {
             "name": "symfony/http-foundation",
@@ -4598,7 +4919,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/http-foundation"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/http-foundation"
         },
         {
             "name": "symfony/http-kernel",
@@ -4713,7 +5034,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/http-kernel"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/http-kernel"
         },
         {
             "name": "symfony/intl",
@@ -4804,7 +5125,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/intl"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/intl"
         },
         {
             "name": "symfony/mailer",
@@ -4888,7 +5209,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/mailer"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/mailer"
         },
         {
             "name": "symfony/maker-bundle",
@@ -4979,7 +5300,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/maker-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/maker-bundle"
         },
         {
             "name": "symfony/mime",
@@ -5065,7 +5386,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/mime"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/mime"
         },
         {
             "name": "symfony/monolog-bridge",
@@ -5150,7 +5471,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/monolog-bridge"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/monolog-bridge"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -5234,7 +5555,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/monolog-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/monolog-bundle"
         },
         {
             "name": "symfony/notifier",
@@ -5321,7 +5642,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/notifier"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/notifier"
         },
         {
             "name": "symfony/options-resolver",
@@ -5393,7 +5714,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/options-resolver"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/options-resolver"
         },
         {
             "name": "symfony/phpunit-bridge",
@@ -5479,7 +5800,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/phpunit-bridge"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/phpunit-bridge"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -5563,7 +5884,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-grapheme"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-intl-grapheme"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -5653,7 +5974,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-icu"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-intl-icu"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -5743,7 +6064,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-idn"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-intl-idn"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -5830,7 +6151,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-normalizer"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-intl-normalizer"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -5913,7 +6234,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-mbstring"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-mbstring"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -5995,7 +6316,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-php73"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-php73"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -6081,7 +6402,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-php80"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/polyfill-php80"
         },
         {
             "name": "symfony/process",
@@ -6146,7 +6467,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/process"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/process"
         },
         {
             "name": "symfony/property-access",
@@ -6230,7 +6551,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/property-access"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/property-access"
         },
         {
             "name": "symfony/property-info",
@@ -6323,7 +6644,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/property-info"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/property-info"
         },
         {
             "name": "symfony/proxy-manager-bridge",
@@ -6393,7 +6714,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/proxy-manager-bridge"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/proxy-manager-bridge"
         },
         {
             "name": "symfony/routing",
@@ -6486,7 +6807,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/routing"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/routing"
         },
         {
             "name": "symfony/security-bundle",
@@ -6588,7 +6909,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/security-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/security-bundle"
         },
         {
             "name": "symfony/security-core",
@@ -6680,7 +7001,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/security-core"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/security-core"
         },
         {
             "name": "symfony/security-csrf",
@@ -6754,7 +7075,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/security-csrf"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/security-csrf"
         },
         {
             "name": "symfony/security-guard",
@@ -6824,7 +7145,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/security-guard"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/security-guard"
         },
         {
             "name": "symfony/security-http",
@@ -6910,7 +7231,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/security-http"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/security-http"
         },
         {
             "name": "symfony/serializer",
@@ -7015,7 +7336,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/serializer"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/serializer"
         },
         {
             "name": "symfony/service-contracts",
@@ -7097,7 +7418,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/service-contracts"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/service-contracts"
         },
         {
             "name": "symfony/stopwatch",
@@ -7162,7 +7483,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/stopwatch"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/stopwatch"
         },
         {
             "name": "symfony/string",
@@ -7248,7 +7569,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/string"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/string"
         },
         {
             "name": "symfony/translation",
@@ -7344,7 +7665,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/translation"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/translation"
         },
         {
             "name": "symfony/translation-contracts",
@@ -7425,7 +7746,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/translation-contracts"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/translation-contracts"
         },
         {
             "name": "symfony/twig-bridge",
@@ -7548,7 +7869,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/twig-bridge"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/twig-bridge"
         },
         {
             "name": "symfony/twig-bundle",
@@ -7638,7 +7959,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/twig-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/twig-bundle"
         },
         {
             "name": "symfony/validator",
@@ -7752,7 +8073,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/validator"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/validator"
         },
         {
             "name": "symfony/var-dumper",
@@ -7843,7 +8164,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/var-dumper"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/var-dumper"
         },
         {
             "name": "symfony/var-exporter",
@@ -7919,7 +8240,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/var-exporter"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/var-exporter"
         },
         {
             "name": "symfony/web-link",
@@ -8009,7 +8330,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/web-link"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/web-link"
         },
         {
             "name": "symfony/web-profiler-bundle",
@@ -8090,7 +8411,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/web-profiler-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/web-profiler-bundle"
         },
         {
             "name": "symfony/yaml",
@@ -8168,7 +8489,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/yaml"
+            "install-path": "d:/Projects/jrcp/vendor/symfony/yaml"
         },
         {
             "name": "twig/extra-bundle",
@@ -8249,7 +8570,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../twig/extra-bundle"
+            "install-path": "d:/Projects/jrcp/vendor/twig/extra-bundle"
         },
         {
             "name": "twig/twig",
@@ -8328,7 +8649,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../twig/twig"
+            "install-path": "d:/Projects/jrcp/vendor/twig/twig"
         },
         {
             "name": "webmozart/assert",
@@ -8389,7 +8710,7 @@
                 "issues": "https://github.com/webmozarts/assert/issues",
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
-            "install-path": "../webmozart/assert"
+            "install-path": "d:/Projects/jrcp/vendor/webmozart/assert"
         }
     ],
     "dev": true,

@@ -4,7 +4,7 @@
     "authors": [
         {
             "name": "Jason",
-            "email": "Jason",
+            "email": "Jason-C1@outlook.com",
             "homepage": "https://github.com/ahajason",
             "role": "Original Author"
         }
@@ -22,6 +22,7 @@
         "doctrine/doctrine-bundle": "^2.3",
         "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.8",
+        "friendsofphp/php-cs-fixer": "^3.0",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "5.2.*",

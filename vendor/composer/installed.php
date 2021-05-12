@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => '__root__',
+    'reference' => '770cae4509a56a7890a60ae9d139be70100e3d84',
+    'name' => 'ahajason/jrcp',
   ),
   'versions' => 
   array (
-    '__root__' => 
+    'ahajason/jrcp' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '770cae4509a56a7890a60ae9d139be70100e3d84',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -28,6 +28,24 @@
       array (
       ),
       'reference' => '7413f0b55a051e89485c5cb9f765fe24bb02a7b6',
+    ),
+    'composer/semver' => 
+    array (
+      'pretty_version' => '3.2.4',
+      'version' => '3.2.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a02fdf930a3c1c3ed3a49b5f63859c0c20e10464',
+    ),
+    'composer/xdebug-handler' => 
+    array (
+      'pretty_version' => '2.0.1',
+      'version' => '2.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '964adcdd3a28bf9ed5d9ac6450064e0d71ed7496',
     ),
     'doctrine/annotations' => 
     array (
@@ -182,6 +200,15 @@
       ),
       'reference' => 'c81f18a3efb941d8c4d2e025f6183b5c6d697307',
     ),
+    'friendsofphp/php-cs-fixer' => 
+    array (
+      'pretty_version' => 'v3.0.0',
+      'version' => '3.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c15377bdfa8d1ecf186f1deadec39c89984e1167',
+    ),
     'friendsofphp/proxy-manager-lts' => 
     array (
       'pretty_version' => 'v1.0.3',
@@ -249,6 +276,15 @@
       array (
         0 => '^2.1',
       ),
+    ),
+    'php-cs-fixer/diff' => 
+    array (
+      'pretty_version' => 'v2.0.2',
+      'version' => '2.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '29dc0d507e838c4580d018bd8b5cb412474f7ec3',
     ),
     'php-http/async-client-implementation' => 
     array (
