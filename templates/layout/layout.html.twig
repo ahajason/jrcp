@@ -1,0 +1,7 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block body %}
+  <header>{% block header %}{% include 'layout/header.html.twig' %}{% endblock %}</header>
+  <main role="main">{% block main %}{% endblock %}</main>
+  <footer>{% block footer %}{% include 'layout/footer.html.twig' %}{% endblock %}</footer>
+{% endblock %}
