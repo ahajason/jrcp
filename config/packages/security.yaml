@@ -1,24 +1,62 @@
 security:
-    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
-    providers:
-        users_in_memory: { memory: null }
-    firewalls:
-        dev:
-            pattern: ^/(_(profiler|wdt)|css|images|js)/
-            security: false
-        main:
-            anonymous: true
-            lazy: true
-            provider: users_in_memory
+  # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+  enable_authenticator_manager: true
+  providers:
+    users:
+      entity:
+        # the class of the entity that represents users
+        class: 'App\Entity\User'
+        # the property to query by - e.g. username, email, etc
+        property: 'uuid'
+  firewalls:
+    dev:
+      pattern: ^/(_(profiler|wdt)|css|images|js)/
+      security: false
+    main:
+      lazy: true
+      custom_authenticator: App\Security\AppCustomAuthenticator
+      logout:
+        path: app_logout
+        # where to redirect after logout
+        # target: app_any_route
+      guard:
+        authenticators:
+          - App\Security\LoginFormAuthenticator
+        # allow authentication using a form or HTTP basic
+        #
 
-            # activate different ways to authenticate
-            # https://symfony.com/doc/current/security.html#firewalls-authentication
+        # configure the form authentication as the entry point for unauthenticated users
+      entry_point: form_login
+      form_login: ~
+      http_basic: ~
+  encoders:
+    App\Entity\User:
+      algorithm: bcrypt
 
-            # https://symfony.com/doc/current/security/impersonating_user.html
-            # switch_user: true
+        #    providers:
+        # used to reload user from session & other features (e.g. switch_user)
+        #      app_user_provider:
+        #        entity:
+        #          class: App\Entity\User
+        #          property: uuid
+        # the class of the entity that represents users
+        # the property to query by - e.g. username, email, etc
+        # optional: if you're using multiple Doctrine entity
+      # managers, this option defines which one to use
+      # manager_name: 'customer'
+      # activate different ways to authenticate
+      # https://symfony.com/doc/current/security.html#firewalls-authentication
 
-    # Easy way to control access for large sections of your site
-    # Note: Only the *first* access control that matches will be used
-    access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+      # https://symfony.com/doc/current/security/impersonating_user.html
+      # switch_user: true
+
+  # Easy way to control access for large sections of your site
+  # Note: Only the *first* access control that matches will be used
+  access_control:
+    # - { path: ^/admin, roles: ROLE_ADMIN }
+    # - { path: ^/profile, roles: ROLE_USER }
+    - { path: '^/dev', allow_if: "'dev' === '%kernel.environment%'" }
+    # allow unauthenticated users to access the login form
+    - { path: ^/login, roles: PUBLIC_ACCESS }
+    # but require authentication for all other admin routes
+    - { path: ^/admin, roles: ROLE_ADMIN }
